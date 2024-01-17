@@ -1,12 +1,14 @@
 <?php
 
-$count = 15;
+$count = 3;
 
-if ($count >= 18) {
-    echo "Мальчик старше 18 лет.";
-} else if ($count >= 14) {
-    echo "Мальчик старше 14 лет.";
-} else {
-    echo "Мальчик младше 14 лет.";
+if ($count == 1) {
+    echo "Надеть куртку";
+} 
+else if ($count == 2) {
+    echo "Взять зонт";
+} 
+else {
+    echo "Сидеть дома";
 }
 
