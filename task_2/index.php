@@ -1,14 +1,17 @@
 <?php
 
-$count = 3;
+$college = array (
+    "Студенты" => array("Никита", "Гена", "Костя"),
+    "Преподаватели" => array ("США", "9/11")
+);
 
-if ($count == 1) {
-    echo "Надеть куртку";
-} 
-else if ($count == 2) {
-    echo "Взять зонт";
-} 
-else {
-    echo "Сидеть дома";
+foreach ($college as $people => $items) {
+    echo "<h1>$people</h1>";
+    echo "<ul>";
+    foreach ($items as $item => $value) {
+        echo "<li>$value</li>";
+    }
+    echo "</ul>";
 }
+
 
