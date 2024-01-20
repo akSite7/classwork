@@ -1,5 +1,5 @@
 @extends('layout.master')
 
-
-@section()
-<h1>Страница о нас</h1>
+@section('content')
+    <h1>Страница о нас</h1>
+@endsection
